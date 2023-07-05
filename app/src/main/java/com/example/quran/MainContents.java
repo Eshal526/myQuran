@@ -49,8 +49,9 @@ public class MainContents extends AppCompatActivity
         System.out.println("\tend is\t" + end);
 
         ArrayList<String> verse;
-
-        verse = v.GetData(start, end);
+        v = new Verse(); // create a new Verse object
+        verse = v.GetData(start, end); // call the GetData method
+// do not reassign or modify verse after this point
 
 
 
@@ -60,6 +61,8 @@ public class MainContents extends AppCompatActivity
             //The ArrayList is not null and has elements
             System.out.println("verse list not empty\t" + verse.size());
         }
+
+
 
         if (verse != null) {
 

@@ -6366,7 +6366,7 @@ public class Verse {
                 listTemp.add(QuranArabicText[i]);
             }
 
-           // String[] list = listTemp.toArray(new String[]{});
+          // String[] list = listTemp.toArray(new String[]{});
 
             return listTemp;
         }
